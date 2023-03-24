@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex_row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.height_100percernt {
+    height: 100%;
+}
+
+.text_blue {
+    color: #00bdd6;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 61px;
+    border: #f3f3f4 solid 1px;
+}
+
+#center {
+    display: flex;
+    justify-content: space-around;
+}
+
+#product {
+    display: flex;
+    flex-direction: column;
+}
+
+#product>div {
+    margin-top: 20px;
+}
